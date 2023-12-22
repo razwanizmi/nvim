@@ -14,9 +14,9 @@ return {
 
     mason_null_ls.setup({
       ensure_installed = {
+        "eslint_d", -- js linter
         "prettier", -- prettier formatter
         "stylua", -- lua formatter
-        "eslint_d", -- js linter
       },
     })
 
