@@ -21,6 +21,9 @@ return {
         -- enable autotagging (w/ nvim-ts-autotag plugin)
         autotag = {
           enable = true,
+          -- Causes issue with JSX tag
+          -- https://github.com/windwp/nvim-ts-autotag/issues/124
+          enable_close_on_slash = false,
         },
         -- ensure these language parsers are installed
         ensure_installed = {
