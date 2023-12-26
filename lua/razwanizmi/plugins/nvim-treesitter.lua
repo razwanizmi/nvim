@@ -40,6 +40,7 @@ return {
           "markdown_inline",
           "prisma",
           "query",
+          "ruby",
           "tsx",
           "typescript",
           "vim",

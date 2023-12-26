@@ -33,6 +33,7 @@ return {
         "html",
         "lua_ls",
         "prismals",
+        "solargraph",
         "tailwindcss",
         "tsserver",
       },
@@ -42,8 +43,10 @@ return {
 
     mason_tool_installer.setup({
       ensure_installed = {
+        "erb-lint", -- eruby linter
         "eslint_d", -- js linter
         "prettier", -- prettier formatter
+        "rubocop", -- ruby linter
         "stylua", -- lua formatter
       },
     })

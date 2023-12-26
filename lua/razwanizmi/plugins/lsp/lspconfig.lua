@@ -123,6 +123,12 @@ return {
       on_attach = on_attach,
     })
 
+    -- configure solargraph ruby server
+    lspconfig["solargraph"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
     -- configure tailwindcss server
     lspconfig["tailwindcss"].setup({
       capabilities = capabilities,

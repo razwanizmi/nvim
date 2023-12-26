@@ -6,8 +6,10 @@ return {
     local lint = require("lint")
 
     lint.linters_by_ft = {
+      eruby = { "erb_lint" },
       javascript = { "eslint_d" },
       javascriptreact = { "eslint_d" },
+      ruby = { "rubocop" },
       typescript = { "eslint_d" },
       typescriptreact = { "eslint_d" },
     }
